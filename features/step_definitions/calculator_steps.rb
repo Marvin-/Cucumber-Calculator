@@ -10,3 +10,4 @@ end
 Then(/^the output should be "([^"]*)"$/) do |expected_output|
   expect(@output).to eq(expected_output)
 end
+
